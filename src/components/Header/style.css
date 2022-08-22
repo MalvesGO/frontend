@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 10vh;
+    border-top: 8px solid #abdae8;
+    border-bottom: 8px solid #abdae8;
+}
+
+.logo {
+    width: 200px;
+}
+
+.search{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.login p{
+    margin-left: 5px;
+}
+
+.new span{
+    font-size: 14px;
+}
+
+.new img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.new p {
+    font-size: 14px;
+    font-weight: 500;
+}

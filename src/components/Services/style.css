@@ -1,0 +1,39 @@
+.services {
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: #E4ECF1;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.services h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #2F4F4F;
+    margin-bottom: 30px;
+}
+
+.list-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.service h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2F4F4F;
+    margin-top: 20px;
+}

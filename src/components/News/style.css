@@ -1,0 +1,26 @@
+.news {
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: #E4ECF1;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.news h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #2F4F4F;
+    margin-bottom: 30px;
+}
+
+.list-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.new img {
+    width: 100%;
+    height: auto;
+}
